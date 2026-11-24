@@ -1,0 +1,9 @@
+[project]
+name = "mlcoursework"
+version = "1.0.0"
+description = "Spam detection and facial landmark regression with scikit-learn"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
